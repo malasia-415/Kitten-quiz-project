@@ -87,7 +87,7 @@ const STORE = {
                "Because they don't know any better",
                "To mark their territory"
            ],
-           answer: "to mark their territory"
+           answer:  "To mark their territory"
        },
 
        {
@@ -97,7 +97,7 @@ const STORE = {
                "they are comfortable",
                "because they love you"
            ],
-           answer: "because they love you"
+           answer: "they are comfortable"
        }
     ],
     currentQuestion: 0,
