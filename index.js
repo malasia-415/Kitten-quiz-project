@@ -24,8 +24,7 @@ function updateOptions()
     $('.js-options').append(`
         <input type = "radio" name="options" id="option${i+1}" value= "${question.options[i]}" tabindex ="${i+1}"> 
         <label for="option${i+1}"> ${question.options[i]}</label> <br/>
-        <span id="js-r${i+1}"></span>
-    `);
+        <span id="js-r${i+1}"></span>`);
   }
   
 }
@@ -34,7 +33,7 @@ function updateOptions()
 function renderAQuestion() {
     let question = STORE.questions[STORE.currentQuestion];
     updateQuestionAndScore();
-   $('#mainSection').append(`
+   const questionHTML = $(`
     <div>
       <form id="js-questions" class="question-form">
         
@@ -50,8 +49,6 @@ function renderAQuestion() {
               <div class="js-options"> </div>
           </div>
         </div>
-      
-  
         <div class="row">
           <div class="col-12">
             <button type = "submit" id="answer" tabindex="5">Submit</button>
@@ -61,14 +58,14 @@ function renderAQuestion() {
       </fieldset>
       </form>
     </div>`);
-  $("#fieldset").remove();
+  $("main").html(questionHTML);
   updateOptions();
   $("#next-question").hide();
   }
 
   /* displays results and restart quiz button */
-function displayAnswer() {
-    let answer = $(
+function displayResults() {
+    let resultHtml = $(
       `<div class="results">
         <form id="js-restart-quiz">
           <fieldset>
@@ -88,7 +85,7 @@ function displayAnswer() {
       </div>`);
       STORE.currentQuestion = 0;
       STORE.score = 0;
-    $("main").add(answer);
+    $("main").html(resultHtml);
   }
 
   /* checks whether it reached the end of questions list */
