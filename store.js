@@ -3,10 +3,10 @@ const STORE = {
        {
          question: "Why do cats have whiskers?",
          options: [
-              "It is extra-grown hair that is a little bit stronger",
-              "To keep bugs off there face",
-              "To see if they can get through a small space",
-              "For better smell"
+               "It is extra-grown hair that is a little bit stronger",
+               "To keep bugs off there face",
+               "To see if they can get through a small space",
+               "For better smell"
          ],
          answer: "To see if they can get through a small space"
        },
@@ -15,84 +15,86 @@ const STORE = {
          question: "Do cats swivel their ears back?",
          options: [
              "No",
-             "yes",
-             "only when noise is made",
-             "when they are sleeping"
+             "Yes",
+             "Only when noise is made",
+             "When they are sleeping"
          ],
-         answer: "yes"
+         answer: "Yes"
        },
 
        {
            question: "Can most cats climb down a tree they got into?",
            options: [
-                "maybe",
-                "no",
-                "yes",
+                "Maybe",
+                "No",
+                "Yes",
                 "Cats don't climb trees"
            ],
-           answer: "no"
+           answer: "No"
        },
 
        {
            question: "Why can't cats normally climb down trees they get into?",
            options: [
-                "they don't want to",
-                "they are to afraid",
-                "their claws are curved",
+                "They don't want to",
+                "They are to afraid",
+                "Their claws are curved",
                 "The get comfortable in the tree"
            ],
-           answer: "their claws are curved"
+           answer: "Their claws are curved"
        },
 
        {
            question: "Are cats nocturnal?",
            options: [
-                "yes",
-                "no",
-                "only at night",
+                "Yes",
+                "No",
+                "Only at night",
                 "Only in different seasons"
            ],
-           answer: "no"
+           answer: "No"
        },
 
        {
            question: "Why do cats have a tail?",
            options: [
-                "to run fast",
-                "they need it for balance",
-                "they're spine was to long",
+                "To run fast",
+                "They need it for balance",
+                "They're spine was to long",
                 "To make them look cute"
            ],
-           answer: "they need it for balance"
+           answer: "They need it for balance"
        },
 
        {
            question: "What are haunches?",
            options: [
-                "shoulders",
-                "lower front legs",
-                "lower back legs",
+                "Shoulders",
+                "Lower front legs",
+                "Lower back legs",
                 "The curve in their back"
            ],
-           answer: "lower back legs"
+           answer: "Lower back legs"
        },
 
        {
            question: "Why do cats have sandpaper tongues?",
            options: [
                 "To get meat off of bones",
-                "to clean wounds",
-                "to drink water"
+                "To clean wounds",
+                "To drink water",
+                "To clean them selves"
            ],
-           answer: "to drink water"
+           answer: "To drink water"
        },
 
        {
            question: "Why do cats scratch furniture or trees?",
            options: [
-                "to hurt your feelings",
+                "To hurt your feelings",
                 "Because they don't know any better",
-                "To mark their territory"
+                "To mark their territory",
+                "To shave their nails down"
            ],
            answer:  "To mark their territory"
        },
@@ -100,11 +102,12 @@ const STORE = {
        {
            question: "What does it mean when a cat slowly blinks?",
            options: [
-                "they are relaxed",
-                "they are comfortable",
-                "because they love you"
+                "They are relaxed",
+                "They are comfortable",
+                "Because they love you",
+                "They are sleepy"
            ],
-           answer: "because they love you"
+           answer: "Because they love you"
        }
     ],
     currentQuestion: 0,
