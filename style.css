@@ -2,10 +2,13 @@ body {
     font-family: "Roboto", sans-serif;
     color: black;
     margin: 0;
-    background: cover;
-    background-image: url
-    ("https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjg2ODQyfQ&w=1000&q=80");
-    background-color: skyblue;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjg2ODQyfQ&w=1000&q=80");
+    
+}
+
+ul {
+    list-style-type: none;
 }
 
 header {
@@ -35,6 +38,9 @@ header .question-and-scores {
     background: none;
 }
 
+img {
+    width: 100%;
+}
 .question-and-score ul {
     text-align: center;
     padding-left: 2%;
@@ -97,17 +103,11 @@ label {
 }
 
 .right-answer {
-    background: ul
-    ("https://www.aspca.org/sites/default/files/blog_foster-myth_062718_main.jpg");
-    padding: 10px 20px;
     margin: 5px 20px;
     border: 2px solid greenyellow;
 }
 
 .wrong-answer {
-    background: ul
-    ("https://assets3.thrillist.com/v1/image/2836132/size/tmg-article_tall;jpeg_quality=20.jpg");
-    padding: 10px;
     margin: 5px 20px;
     border: 2px solid red; 
 }
