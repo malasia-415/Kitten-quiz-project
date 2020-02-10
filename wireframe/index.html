@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Quiz App</title>
+</head>
+<body>
+  <main role="main" class="container">
+  
+    <header role="banner" class="header">
+      <section class="counter">
+        <ul>
+          <h1>Kitty Quiz App</h1>
+          <li class="qs-counter">Question:
+            <span class="questionNum"> 0</span>/10</li>
+        </ul>
+      </section>
+    </header>
+      <form class="quiz">
+        <fieldset>
+          <legend class="text question-text"></legend>
+          <h2 class="summary">Do you know your cat?</h2>
+          <button type="button" class="startButton nextButton restartButton">START QUIZ</button>
+        </fieldset>  
+    </form>
+    
+   
+    <section class="counter">
+        <ul>
+          <h1>Kitty quiz App</h1>
+          <li class="qs-counter">Question:
+            <span class="questionNum"> 0</span>/10</li>
+        </ul>
+      </section>
+     <form class="quiz-form">
+        <fieldset name="question-title">
+        <legend>Question</legend>
+          <p class="answer-choice"><input type="radio" name="c1" class="radio">CHOICE 1</p>
+          <p class="answer-choice"><input type="radio" name="c2" class="radio">CHOICE 2</p>
+          <p class="answer-choice"><input type="radio" name="c3" class="radio">CHOICE 3</p>
+        <button type="button">Submit</button>
+        </fieldset>
+    </form>
+
+    <h1>RIGHT ANSWER CHOICE DEMO</h1>
+      <section class="counter">
+        <ul>
+          <h1>Kitty Quiz App</h1>
+          <li class="qs-counter">Question: 
+            <span class="questionNum"> 0</span>/10</li>
+          <li class="qs-counter">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+      </section>
+    <form class="quiz-form">
+        <fieldset name="question-title">
+        <legend>Question 1</legend>
+        <p>ANSWER</p>
+        <p id="correct-answer">You got it right</p>
+        
+        <button type="button" role="button" class="next-button">Next</button>
+        </fieldset>
+    </form>   
+   </main>  
+</body>
+</html> 
